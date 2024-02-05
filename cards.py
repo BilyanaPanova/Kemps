@@ -191,7 +191,7 @@ while True:
         print("\nSee you again cowardly chicken!")
         exit()
     else:
-        print("Invalid choice!")
+        print("\nInvalid choice!Please,enter a number between 1-4\n")
     player1 = [x[0] for x in player]
     computer1 = [x[0] for x in computer]
     if len(set(player1)) == 1:
